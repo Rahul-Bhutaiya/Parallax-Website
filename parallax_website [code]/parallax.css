@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    overflow-x: hidden;
+    height: 100vh;
+    perspective: 10px;
+}
+
+#parallax{
+    transform-style: preserve-3d;
+    position: relative;
+    height: 100%;
+    z-index: -1;
+}
+
+#parallax img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#mountain-img{
+    transform: translateZ(-40px) scale(6.7);
+}
+#kaka-img{
+    transform: translateZ(-20px) scale(3);
+}
+
+h1{
+    color: white;
+    font-size: 10rem;
+    font-family: Poppins,"sans-serif";
+    text-align: center;
+    position: relative;
+    top: 12%;
+    letter-spacing: 4px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#container{
+    background-color: #2D2D2D;
+    padding: 5rem 0px;
+    color: white;
+}
+
+#adv_time{
+    padding: 0px 10rem;
+    font-family: Poppins,"sans-serif";
+    font-size: 5rem;
+}
+
+.text{
+    margin: 5rem 0px;
+    padding: 0px 10rem;
+    font-size: 1.5rem;
+    font-family: Poppins;
+}
+
+.bg{
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg1{
+    background-image: url(sport-1.jpg);
+}
+.bg2{
+    background-image: url(sport-2.jpg);
+}
+.bg3{
+    background-image: url(sport-3.jpg);
+}
+
+.bg h2{
+    color: black;
+    font-size: 3.5rem;
+    font-family: Poppins,"sans-serif";
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+}
